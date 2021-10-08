@@ -2,6 +2,7 @@
 h1 {
     color:rgba(0,0,255);
     margin:10px 10px 4px 0px;
+    position: relative;
 }
 
 /*Changes the header position using relative unit*/
@@ -19,21 +20,67 @@ h4.Up {
     padding-left:57rem;
 }
 
+h3 {
+    color:rgba(0,0,255);
+    text-decoration:none;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    flex-grow:4;
+}
+
 sub {
     color:#800080;
 }
 
 h4.Final {
     padding: 25px 50px 0px 0px;
+    position:static;
 }
 
+p.S1, p.S2 {
+    display: grid;
+    justify-self: start;
+    grid-template-columns:auto;
+    row-gap:0.2px;
+    column-gap:0.2px;
+}
+
+span {
+    font-weight: bold;
+}
 p.Final-Msg {
     padding-right:0.5px;
+    text-align: center;
+    min-width:auto;
+    font-family:'Akronim', cursive;
+    font-size:30px;
 }
 
+img.img-see {
+    display:inline;
+    width:1200px;
+    height:600px;
+}
+
+video {
+    max-width: 320px;
+    max-height: 240px;
+}
+img.img-block {
+    display:none;
+}
+
+p.NA {
+    color:red;
+}
 a:hover {
     background-color: transparent;
     text-decoration: none;
+}
+
+a:active {
+    background-color: yellow;
 }
 
 a:visited {
@@ -68,4 +115,10 @@ li {
     margin-bottom: 0.5mm;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 10px;
+    }
 }
