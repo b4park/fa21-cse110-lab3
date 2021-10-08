@@ -1,3 +1,7 @@
+* {
+   background-color: black; 
+}
+
 /*Changes the aspects labeled h1 or header 1*/
 h1 {
     color:rgba(0,0,255);
@@ -33,6 +37,7 @@ sub {
     color:#800080;
 }
 
+
 h4.Final {
     padding: 25px 50px 0px 0px;
     position:static;
@@ -44,10 +49,58 @@ p.S1, p.S2 {
     grid-template-columns:auto;
     row-gap:0.2px;
     column-gap:0.2px;
+    color:blue;
 }
 
+p.extra {
+    color: blue;
+}
+
+div.Unused ~ p {
+    color:blue
+}
+
+div.Unused ~ p + p {
+    font-size: 30px;
+}
+p.class {
+    font-size: 60px;
+}
+
+div + p {
+    font-size:20px;
+}
+
+a[target="_blank"] {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main h3 {
+    font-size:30px;
+}
+h4.AUD {
+    color:blue;
+}
+
+div > h3 {
+    font-size:30px;
+}
+label {
+    color:white;
+}
+section.Next {
+    color: blue;
+}
 span {
     font-weight: bold;
+}
+
+p.Form, p.Form2 {
+    color: white;
+}
+
+h4.END {
+    color:blue;
 }
 p.Final-Msg {
     padding-right:0.5px;
@@ -55,6 +108,10 @@ p.Final-Msg {
     min-width:auto;
     font-family:'Akronim', cursive;
     font-size:30px;
+}
+
+#VID {
+    color:blue;
 }
 
 img.img-see {
