@@ -15,7 +15,7 @@
         <sub>Brainstorming / </sub>
         <nav>
             <a href="page1.html">Tester</a> |
-            <a href="aboutMe.html">About Me</a>
+            <a href="aboutMe.html" target="_blank">About Me</a>
         </nav>
         <header>
             <ul class="Attend">
@@ -83,14 +83,17 @@
             <p class="NA">N/A</p>
             <hr>
         </section>
-        <section>
+        <div>
             <h2>Project Discussion</h2>
             <img src="https://assets-global.website-files.com/5a690960b80baa0001e05b0f/5fd8d7063f660a2f634b48a2_Software-project-plan-gantt-chart-example.png" alt="Random Gantt chart for page" class="img-see">
             <img src="https://assets-global.website-files.com/5a690960b80baa0001e05b0f/5fd8d7063f660a2f634b48a2_Software-project-plan-gantt-chart-example.png" alt="Random Gantt chart for page" class="img-block">
             <h3>The above Gaant Chart displays our updated timeframe</h3>
+            <section>
+                <h3>Go over when you have time.</h3>
+            </section>
             <hr>
-        </section>
-
+        </div>
+        <p class="extra">Moving on...</p>
         <main>
             <h3>The following recording is from the professor and is <i>VERY</i> important. Pay Attention.</h3>
             <audio controls>
@@ -98,25 +101,26 @@
             </audio>
         </main>
         <section>
-            <h4>Audio Discussion</h4>
+            <h4 class="AUD">Audio Discussion</h4>
             <div class="Unused">
                 <p class="S1">Discuss the recording and <span>Please</span> let everyone voice their opinion</p>
                 <p class="S2"><strong>Remember</strong> these words from the professor while moving forward</p>
             </div>
-
+            <p>I will review the video next meeting.</p>
+            <p>Please don't forget.</p>
             <h3>After listening to the audio, watch this recording of the professor speak about the course</h3>
             <video controls>
                 <source src="VideoFile/video.mp4" type="video/mp4">
             </video>
             <details>
                 <summary>Video Summary</summary>
-                <p>
+                <p id="VID">
                     The video talks about how the course will take place in terms of the timeframe of the project and what we should be doing now.
                 </p>
             </details>
         </section>
         <hr>
-        <section>
+        <section class="Next">
             <h2>Plans For Next Meeting</h2>
             <p>For our next meeting <em>please</em> remember to set concrete and reachable goals and to refer to <a href="https://www.google.com/">this website</a> if you have any questions.</p>
             <p>
@@ -139,15 +143,15 @@
                 <label for="birthday">Birthday:</label>
                 <input type="date" id="birthday" name="birthday"><br><br>
 
-                <p>What is your favorite programming language?:</p>
+                <p class="Form">What is your favorite programming language?:</p>
                 <input type="radio" id="C++" name="lang" value="C++">
                 <label for="C++">C++</label><br>
                 <input type="radio" id="Java/sc" name="lang" value="Java/sc">
                 <label for="Java/sc">Java/Javascript</label><br>
                 <input type="radio" id="other" name="lang" value="other">
                 <label for="other">Other</label>
-
-                <p>Explain why you would be good candidate for this team?</p>
+                    
+                <p class="Form2">Explain why you would be good candidate for this team?</p>
                 <textarea></textarea><br><br>
 
                 <label for="college">Choose your college from the list:</label>
@@ -174,7 +178,7 @@
             </fieldset>
         </form>
         <section>
-            <h4>End of the page</h4>
+            <h4 class="END">End of the page</h4>
             <nav>
                 <a href="#">Top Of Page</a>
             </nav>
