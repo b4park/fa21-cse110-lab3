@@ -57,6 +57,10 @@ p.extra {
     color: blue;
 }
 
+h2.PD {
+    color:blue;
+}
+
 div.Unused ~ p {
     color:blue
 }
