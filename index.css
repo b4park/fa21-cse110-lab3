@@ -41,6 +41,7 @@ sub {
 h4.Final {
     padding: 25px 50px 0px 0px;
     position:static;
+    color: blue;
 }
 
 p.S1, p.S2 {
@@ -108,6 +109,7 @@ p.Final-Msg {
     min-width:auto;
     font-family:'Akronim', cursive;
     font-size:30px;
+    color:blue;
 }
 
 #VID {
